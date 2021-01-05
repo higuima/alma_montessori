@@ -14,56 +14,61 @@
         }
         #menu{
             background-color: #fa8072b4;
-            margin: 60px  155px 0px;
-            height: 75px;
-            font-size: 25px;
-            font-family: 'Fjalla One', sans-serif;
-            flex-flow: row;
+            border-radius: 15px;
             display: flex;
+            flex-flow: row;
+            font-family: 'Fjalla One', sans-serif;
+            font-size: 25px;
+            height: 75px;
+            margin: 60px  155px 0px;
         }
         div>a{
             color: rgb(77, 76, 76);
             margin: 25px 20px auto;
             position: relative;
         }
+        div>a:hover{
+            color: maroon;
+        }
         img{
-            margin: -20px auto;
             height: 70px;
+            margin: -20px auto;
             text-align: center;
         }
         #texto{
-            border: 5px;
-            border-style: solid;
-            border-color: #815651ee;
-            font-size: 25px;
-            margin: 45px 80px;
-            text-align: justify;
-            background-color: burlywood;
-            flex-wrap: wrap;
+            background-color: rgb(204, 194, 180);
+            border-radius: 15px;
+            color: rgb(77, 76, 76);
             flex-direction: row;
+            flex-wrap: wrap;
+            font-size: 25px;
+            margin: 45px 80px 45px;
             padding: 30px 55px;
+            text-align: justify;
         }
         #image{
-            margin:30px !important;
-            height: 300px;
-            width: 300px !important;
             border-radius: 200px;
             float:left;
+            height: 300px;
+            margin:30px !important;
+            width: 300px !important;
         }
-        #menu_interativo{
-            display: none;
+        #menu_parcerias{
             background:rgba(255, 160, 122, 0.548);
-            margin: 0px  155px;
-            height: 75px;
-            font-size: 20px;
-            font-family: 'Fjalla One', sans-serif;
+            border-bottom-left-radius: 25px;
+            border-bottom-right-radius: 25px;
+            display: none;
             flex-flow: row;
-            text-align: justify;
+            font-family: 'Fjalla One', sans-serif;
+            font-size: 20px;
+            height: 75px;
+            margin: 0px  175px;
             padding: 15px;
+            text-align: justify;
         }
-        #parcerias:hover{
+        .parcerias:hover .menu_parcerias{
+            color: blue;
             display: block;
-            color: maroon;
         }
     </style>
     <body>
@@ -73,7 +78,7 @@
             <a>Consultorias</a>
             <a href="https://www.sympla.com.br/curso-de-introducao-ao-montessori-para-criancas-de-0-a-3-anos__1086982" target="_blank">Curso</a>
             <a>Montessori</a>
-            <a id="parcerias">Parcerias</i></a>
+            <a class="parcerias">Parcerias</a>
             <a href="https://www.instagram.com/almamontessori.br/?hl=pt-br" target="_blank"><i class="instagram icon"></i></a>
             <a href="https://wa.me/message/HVRJHK43M3OEB1" target="_blank"><i class="whatsapp icon"></i></a>
             <a href="https://www.facebook.com/almamontessori.br" target="_blank"><i class="facebook square icon"></i></a>
@@ -82,7 +87,7 @@
                 <i class="envelope icon" id="icon"></i>
             </a>
         </div>
-        <div id="menu_interativo">
+        <div class="menu_parcerias">
             <a href="http://www.montessoricampinas.com.br/" target="_blank">Escola Montessori de Campinas</a>
         </div>
         <div id="texto">
