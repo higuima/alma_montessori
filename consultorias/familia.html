@@ -1,0 +1,133 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="/semantic/semantic.min.css">
+        <link rel="stylesheet" href="/semantic/main.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+    </head>
+    <style>
+        body{
+            background-image: url(/images/img_fundo.jpg);
+        }
+        .menu{
+            background-color: #fa8072b4;
+            border-radius: 15px;
+            display: flex;
+            flex-flow: row;
+            font-family: 'Fjalla One', sans-serif;
+            font-size: 25px;
+            height: 75px;
+            margin: 60px  155px 0px;
+        }
+        .menu li{
+            color: rgb(77, 76, 76);
+            margin: 25px 15px auto;
+            position: relative;
+            list-style:none;
+        }
+        .menu li:hover ul, .menu li.over ul{
+            display:block;
+        }
+        .menu li ul{
+            background:rgba(255, 160, 122, 0.856);
+            border-bottom-left-radius: 25px;
+            border-bottom-right-radius: 25px;
+            display: none;
+            flex-flow: row;
+            font-family: 'Fjalla One', sans-serif;
+            font-size: 20px;
+            height: max-content;
+            margin: 10px auto;
+            padding: 10px;
+            position:absolute;
+            text-align: justify;
+            width: max-content;
+        }
+        ul>li:hover{
+            color: maroon;
+        }
+        ul>li>a{
+            color: rgb(77, 76, 76);
+            margin: 25px 5px 25px;
+            position: relative;
+            text-decoration:none; 
+        }
+        ul>li>a:hover{
+            color: maroon;
+        }
+        ul>li>a>img{
+            height: 70px;
+            margin: -20px auto;
+            text-align: center;
+        }        
+        #image{
+            border-radius: 200px;
+            float:left;
+            height: 300px;
+            margin:30px !important;
+            width: 300px !important;
+        }
+        #texto{
+            background-color: rgb(204, 194, 180);
+            border-radius: 15px;
+            color: rgb(77, 76, 76);
+            flex-direction: row;
+            flex-wrap: wrap;
+            font-size: 25px;
+            margin: 45px 80px 0px;
+            padding: 30px 55px;
+            text-align: justify;
+        }
+        p{
+            text-indent: 15px;
+        }
+        #escola{
+            text-indent: 45px;
+        }
+    </style>
+    <body>
+        <nav>
+            <ul class="menu">
+                <li><a href="/index.html"><img src="/images/logo.png"></a></li>
+                <li><a href="/minha_historia.html">Minha História</a></li>
+                <li>Consultorias
+                    <ul>
+                        <li><a href="/consultorias/familia.html">Família</a></li>
+                        <li><a href="/consultorias/escolas.html">Escolas</a></li>
+                    </ul>
+                </li>
+                <li>Cursos
+                    <ul>
+                        <li>
+                            <a href="https://www.sympla.com.br/curso-de-introducao-ao-montessori-para-criancas-de-0-a-3-anos__1086982" target="_blank">
+                                Curso de introdução ao Montessori para crianças de 0 a 3 anos
+                            </a>
+                        </li>
+                    </ul>
+                </li>                    
+                <li><a href="/montessori.html">Montessori</a></li>
+                <li>Parcerias
+                    <ul>
+                        <li><a href="http://www.montessoricampinas.com.br/" target="_blank">Escola Montessori de Campinas</a></li>
+                        <li><a href="https://larmontessori.com/" target="_blank">Lar Montessori</a></li>
+                        <li><a href="https://instagram.com/reflexoesdemaeeprof?igshid=a5ova6y9yhb5" target="_blank"><i class="instagram icon"></i>Reflexões de mães e prof</a></li>
+                        <li><a href="https://www.instagram.com/educare.mamamontessori/?hl=pt-br"><i class="instagram icon"></i>Educare Mama Montessori</a></li>
+                        <li><a href="https://www.youtube.com/channel/UCno_AViYGrIdkyDvpJ2xgUQ?app=desktop"><i class="youtube icon"></i>Educare Mama Montessori</a></li>
+                    </ul>
+                </li>
+                <li><a href="https://www.instagram.com/almamontessori.br/?hl=pt-br" target="_blank"><i class="instagram icon"></i></a></li>
+                <li><a href="https://wa.me/message/HVRJHK43M3OEB1" target="_blank"><i class="whatsapp icon"></i></a></li>
+                <li><a href="https://www.facebook.com/almamontessori.br" target="_blank"><i class="facebook square icon"></i></a></li>
+                <li><a href="https://www.youtube.com/channel/UCWQe1VbHF3nOdpkVpz25Kag" target="_blank"><i class="youtube icon"></i></a></li>
+                <li><a href="mailto:higuima13@gmail.com"><i class="envelope icon" id="icon"></i></a></li>
+            </ul>
+        </nav>
+        <div id="texto">
+            <p>Nós estudamos para sermos melhores na nossa vida como estudante e em nosso trabalho. Convido você a estudar para ser um pai ou uma mãe mais preparade para auxiliar seu filho em seu desenvolvimento e ter uma relação mais respeitosa dentro da filosofia Montessori.</p>
+            <p>Quer se aperfeiçoar? Entre em contato comigo!</p>
+        </div>
+    </body>
+</html>
