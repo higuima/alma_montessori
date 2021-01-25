@@ -1,8 +1,8 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="/semantic/main.css">
-        <link rel="stylesheet" href="/semantic/semantic.min.css">
+        <link rel="stylesheet" href="semantic/semantic.min.css">
+        <link rel="stylesheet" href="semantic/main.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
@@ -62,45 +62,36 @@
             height: 70px;
             margin: -20px auto;
             text-align: center;
-        }     
-        #titulo{
-            margin: 100px auto;
+        }        
+        #image{
+            border-radius: 200px;
+            float:left;
+            height: 300px;
+            margin:30px !important;
+            width: 300px !important;
         }
-        h1{
-            color:whitesmoke;
-            font-family: 'Fjalla One', sans-serif;
-            font-size: 95px;
-            text-align: center;
+        #texto{
+            background-color: rgb(204, 194, 180);
+            border-radius: 15px;
+            color: rgb(77, 76, 76);
+            flex-direction: row;
+            flex-wrap: wrap;
+            font-size: 25px;
+            margin: 45px 80px 0px;
+            padding: 30px 55px;
+            text-align: justify;
         }
         p{
-            color:rgba(245, 245, 245, 0.671);
-            font-family: 'Amatic SC', cursive;
-            font-size: 55px;
-            margin: auto 20px;
-            text-align: center;
+            text-indent: 15px;
         }
-        #buttons{
-            align-items: center;
-            display: flex;
-            flex-flow: row;
-            margin:30px 550px;
-            width: 150px;
-        }
-        .ui.button{
-            color:rgb(77, 76, 76);
-            font-family: 'Fjalla One', sans-serif;
-            font-size: 20px;
-            height: 50px;
-            margin: auto 50px auto 50px !important;
-        }
-        #fala{
-            font-size: 40px;
+        #escola{
+            text-indent: 45px;
         }
     </style>
     <body>
         <nav>
             <ul class="menu">
-                <li><a href="/index.html"><img src="images/logo.png"></a></li>
+                <li><a href="/index.html"><img src="/images/logo.png"></a></li>
                 <li><a href="/minha_historia.html">Minha História</a></li>
                 <li>Consultorias
                     <ul>
@@ -134,15 +125,18 @@
                 <li><a href="mailto:higuima13@gmail.com"><i class="envelope icon" id="icon"></i></a></li>
             </ul>
         </nav>
-        <div id="titulo">
-            <h1>Alma Montessori</h1>
-            <p>"Nós educadores temos que fazer gerações de pessoas</p>
-            <p>poderosas assim, independentes e livres."</p>
-            <p id="fala">Maria Montessori</p>
-            <div id="buttons">
-                <button class="ui button" href="/consultorias/familia.html">Familia</button>
-                <button class="ui button" href="/consultorias/escolas.html">Escolas</button>
-            </div>
+        <div id="texto">
+            <p>Trabalho com consultoria de Escolas que já aplicam Montessori e precisam formar pessoas novas na equipe ou reciclar o aprendizado das que já tiveram Formação Montessori. Além disso, presto consultoria para Escolas que estão se transformando em Montessori ou que estão iniciando as atividades.</p>
+            <p>Segue uma lista de Escolas que já realizei entre Formação de Equipe e Assessoria: </p>
+            <p id="escola">Monteiro Lobato – São José dos Campos, SP (2009)</p>
+            <p id="escola">Colégio Santa Ursula – Ribeirão Preto, SP (2010 à 2017)</p>
+            <p id="escola">Educare – Goiânia, GO (2013 à 2019)</p>
+            <p id="escola">Semear – Sorocaba, SP (2017 à 2018)</p>
+            <p id="escola">Escola Montessori de São Carlos – São Carlos, SP(2018 à 2019)</p>
+            <p id="escola">Colégio Prisma – Juazeiro, BA (2018)</p>
+            <p id="escola">Upaon Açu – São Luis do Maranhão, MA (2019)</p>
+            <p id="escola">Jardim de Maria – Fortaleza, CE (2020 e 2021)</p>
+            <p>Hoje sou membro do Comitê Científico da Organização Montessori do Brasil e consultora pelo Alma Montessori.</p>
         </div>
     </body>
 </html>

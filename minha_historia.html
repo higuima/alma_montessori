@@ -1,8 +1,8 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="semantic/semantic.min.css">
-        <link rel="stylesheet" href="semantic/main.css">
+        <link rel="stylesheet" href="/semantic/semantic.min.css">
+        <link rel="stylesheet" href="/semantic/main.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
@@ -10,7 +10,7 @@
     </head>
     <style>
         body{
-            background-image: url(images/img_fundo.jpg);
+            background-image: url(/images/img_fundo.jpg);
         }
         .menu{
             background-color: #fa8072b4;
@@ -51,16 +51,23 @@
         }
         ul>li>a{
             color: rgb(77, 76, 76);
-            margin: 25px 15px 25px;
+            margin: 25px 5px 25px;
             position: relative;
         }
         ul>li>a:hover{
             color: maroon;
         }
-        ul>li>img{
+        ul>li>a>img{
             height: 70px;
             margin: -20px auto;
             text-align: center;
+        }        
+        #image{
+            border-radius: 200px;
+            float:left;
+            height: 300px;
+            margin:30px !important;
+            width: 300px !important;
         }
         #texto{
             background-color: rgb(204, 194, 180);
@@ -69,27 +76,26 @@
             flex-direction: row;
             flex-wrap: wrap;
             font-size: 25px;
-            margin: 45px 80px 45px;
+            margin: 45px 80px 0px;
             padding: 30px 55px;
             text-align: justify;
         }
-        #image{
-            border-radius: 200px;
-            float:left;
-            height: 300px;
-            margin:30px !important;
-            width: 300px !important;
+        p{
+            text-indent: 15px;
+        }
+        #escola{
+            text-indent: 45px;
         }
     </style>
     <body>
         <nav>
             <ul class="menu">
-                <li href="index.html"><img src="images/logo.png"></li>
-                <li href="minha_historia.html">Minha História</li>
+                <li><a href="/index.html"><img src="/images/logo.png"></a></li>
+                <li><a href="/minha_historia.html">Minha História</a></li>
                 <li>Consultorias
                     <ul>
-                        <li>Família</li>
-                        <li>Escolas</li>
+                        <li><a href="/consultorias/familia.html">Família</a></li>
+                        <li><a href="/consultorias/escolas.html">Escolas</a></li>
                     </ul>
                 </li>
                 <li>Cursos
@@ -101,11 +107,14 @@
                         </li>
                     </ul>
                 </li>                    
-                <li>Montessori</li>
+                <li><a href="/montessori.html">Montessori</a></li>
                 <li>Parcerias
                     <ul>
                         <li><a href="http://www.montessoricampinas.com.br/" target="_blank">Escola Montessori de Campinas</a></li>
                         <li><a href="https://larmontessori.com/" target="_blank">Lar Montessori</a></li>
+                        <li><a href="https://instagram.com/reflexoesdemaeeprof?igshid=a5ova6y9yhb5" target="_blank"><i class="instagram icon"></i>Reflexões de mães e prof</a></li>
+                        <li><a href="https://www.instagram.com/educare.mamamontessori/?hl=pt-br"><i class="instagram icon"></i>Educare Mama Montessori</a></li>
+                        <li><a href="https://www.youtube.com/channel/UCno_AViYGrIdkyDvpJ2xgUQ?app=desktop"><i class="youtube icon"></i>Educare Mama Montessori</a></li>
                     </ul>
                 </li>
                 <li><a href="https://www.instagram.com/almamontessori.br/?hl=pt-br" target="_blank"><i class="instagram icon"></i></a></li>
@@ -117,13 +126,23 @@
         </nav>
         <div id="texto">
             <img src="images/camila2.jpg" id="image">
-            <p>Revolução Francesa (em francês: Révolution française, 1789–1799) foi um período de intensa agitação política e social na França, que teve um impacto duradouro na história do país e, mais amplamente, em todo o continente europeu. A monarquia absolutista que tinha governado a nação durante séculos entrou em colapso em apenas três anos. A sociedade francesa passou por uma transformação épica, quando privilégios feudais, aristocráticos e religiosos evaporaram-se sobre um ataque sustentado de grupos políticos radicais, das massas nas ruas e de camponeses na região rural do país.[1] Antigos ideais da tradição e da hierarquia de monarcas, aristocratas e da Igreja Católica foram abruptamente derrubados pelos novos princípios de Liberté, Égalité, Fraternité (em português: liberdade, igualdade e fraternidade). As casas reais da Europa ficaram aterrorizadas com a revolução e iniciaram um movimento contrário que, até 1814, tinha restaurado a antiga monarquia, mas muitas reformas importantes tornaram-se permanentes. O mesmo aconteceu com os antagonismos entre os partidários e inimigos da revolução, que lutaram politicamente ao longo dos próximos dois séculos.
-
-                Em meio a uma crise fiscal, o povo francês estava cada vez mais irritado com a incompetência do rei Luís XVI e com a indiferença contínua e a decadência da aristocracia do país. Esse ressentimento, aliado aos cada vez mais populares ideais iluministas, alimentaram sentimentos radicais e a revolução começou em 1789, com a convocação dos Estados Gerais em maio. O primeiro ano da revolução foi marcado pela proclamação, por membros do Terceiro Estado, do Juramento do Jogo da Péla em junho, pela Tomada da Bastilha em julho, pela aprovação da Declaração dos Direitos do Homem e do Cidadão em agosto e por uma épica marcha sobre Versalhes, que obrigou a corte real a voltar para Paris em outubro. Os anos seguintes foram dominados por lutas entre várias assembleias liberais e de direita feitas por apoiantes da monarquia no sentido de travar grandes reformas no país.
-                
-                A Primeira República Francesa foi proclamada em setembro de 1792 e o rei Luís XVI foi executado no ano seguinte. As ameaças externas moldaram o curso da revolução. As guerras revolucionárias francesas começaram em 1792 e, finalmente, apresentaram espetaculares vitórias que facilitaram a conquista da Península Itálica, dos Países Baixos e da maioria dos territórios a oeste do Reno pela França, feitos que os governos franceses anteriores nunca conseguiram realizar ao longo de séculos. Internamente, os sentimentos populares radicalizaram a revolução significativamente, culminando com a ascensão de Maximilien Robespierre, dos jacobinos e de uma ditadura virtual imposta pelo Comitê de Salvação Pública, que estabeleceu o chamado Reino de Terror entre 1793 e 1794, período no qual entre 16 mil e 40 mil pessoas foram mortas.[2] Após a queda dos jacobinos e a execução de Robespierre, o Diretório assumiu o controle do Estado francês em 1795 e manteve o poder até 1799, quando foi substituído pelo Consulado, sob o comando de Napoleão Bonaparte.
-                
-                A era moderna tem-se desdobrado na sombra dos ideais conquistados pela Revolução Francesa. O crescimento das repúblicas e das democracias liberais ao redor do mundo, a difusão do secularismo, o desenvolvimento das ideologias modernas e a invenção da guerra total[3] tiveram o seu nascimento durante a revolução. Eventos subsequentes que podem ser rastreados com a revolução incluem as Guerras Napoleônicas, duas restaurações separadas da monarquia (a primeira em 1814 e a segunda, a Restauração Bourbon, em 1815), e duas revoluções adicionais (1830 e 1848) ajudaram a moldar a França moderna.</p>
+            <p>Em 1995, no segundo semestre do primeiro ano de pedagogia na Unicamp tive o privilégio de ser estagiária na Escola Americana de Campinas onde conheci Montessori e logo me apaixonei!</p>
+            <p>Fui para os EUA para fazer o Treinamento Montessori para Crianças de 3 a 6 anos no Seton Montessori Institute que é credenciado pela American Montessori Society e finalizei a formação em 1998 antes mesmo de terminar pedagogia.</p>
+            <p>Trabalhei por 5 anos como auxiliar e professora na Escola Americana em salas Montessori mas quando minha primeira filha, a Helena, nasceu em 1999, pedi demissão porque queria aproveitar todo o tempo que pudesse com ela. Montei uma sala Montessori e passei a receber filhos de amigos e de outras famílias que moravam na vizinhança para trabalhar com os materiais que havia comprado para montar a sala na minha casa.</p>
+            <p>Tive meu segundo filho, o Pedro em 2002 e continuei trabalhando em casa com a sala Montessori. No final do ano de 2004, ganhei do meu pai uma sala Montessori completa com mobiliário e todos os materiais necessários. Reformei a garagem de casa para ter mais espaço e passei a receber mais alunos. Decidi que a escola se chamaria Children’s House e criei o logo com as iniciais do nome estilizados em formato de escola e sol e meus dois filhos dando as mãos dentro da escola.</p>
+            <p>No ano de 2006 a sala Montessori saiu da minha casa para uma casa na Rua Ibsen da Costa Manso em Campinas onde ficamos um ano enquanto abria a empresa que passou a chamar Escola Montessori de Campinas.</p>
+            <p>2007 mudamos para a Avenida João Erbolato e reformamos o espaço para receber mais alunos e com isso surgiu a necessidade de contratar outras pessoas para trabalharem comigo em sala de aula. Percebi a necessidade de criar um Curso de Formação Montessori no Brasil para treinar minha equipe. Nasceu em julho de 2008 o Curso que hoje é chamado de Centro de Estudos Montessori de São Paulo que é uma pós graduação pela Singularidades e possui certificação pelo MACTE. Além desta pós, em 2019 fiz o currículo da pós Montessori semipresencial oferecida pelo Claretiano.</p>
+            <p>A Escola Montessori de Campinas expandiu e em agosto de 2019 abriu a segunda unidade no bairro do São Quirino.</p>
+            <p>Ao longo destes anos me aprofundei em Montessori fazendo também Formação Montessori para crianças de 0 a 3 anos pela North American Montessori Center e de 6 a 12 anos pela ABEM e realizei alguns trabalhos de assessoria e Formação da Equipe para as seguintes escolas:</p>
+            <p id="escola">Monteiro Lobato – São José dos Campos, SP (2009)</p>
+            <p id="escola">Colégio Santa Ursula – Ribeirão Preto, SP (2010 à 2017)</p>
+            <p id="escola">Educare – Goiânia, GO (2013 à 2019)</p>
+            <p id="escola">Semear – Sorocaba, SP (2017 à 2018)</p>
+            <p id="escola">Escola Montessori de São Carlos – São Carlos, SP(2018 à 2019)</p>
+            <p id="escola">Colégio Prisma – Juazeiro, BA (2018)</p>
+            <p id="escola">Upaon Açu – São Luis do Maranhão, MA (2019)</p>
+            <p id="escola">Jardim de Maria – Fortaleza, CE (2020 e 2021)</p>
+            <p>Hoje sou membro do Comitê Científico da Organização Montessori do Brasil e consultora pelo Alma Montessori.</p>
         </div>
     </body>
 </html>
