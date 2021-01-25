@@ -1,9 +1,8 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="/semantic/main.css">
         <link rel="stylesheet" href="/semantic/semantic.min.css">
-
+        <link rel="stylesheet" href="/semantic/main.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
@@ -54,7 +53,6 @@
             color: rgb(77, 76, 76);
             margin: 25px 5px 25px;
             position: relative;
-            text-decoration:none; 
         }
         ul>li>a:hover{
             color: maroon;
@@ -63,32 +61,36 @@
             height: 70px;
             margin: -20px auto;
             text-align: center;
-        }     
-
-        #titulo{
-            margin: 100px auto;
+        }        
+        #image{
+            border-radius: 200px;
+            float:left;
+            height: 300px;
+            margin:30px !important;
+            width: 300px !important;
         }
-        h1{
-            color:whitesmoke;
-            font-family: 'Fjalla One', sans-serif;
-            font-size: 95px;
-            text-align: center;
+        #texto{
+            background-color: rgb(204, 194, 180);
+            border-radius: 15px;
+            color: rgb(77, 76, 76);
+            flex-direction: row;
+            flex-wrap: wrap;
+            font-size: 25px;
+            margin: 45px 80px 0px;
+            padding: 30px 55px;
+            text-align: justify;
         }
         p{
-            color:rgba(245, 245, 245, 0.671);
-            font-family: 'Amatic SC', cursive;
-            font-size: 55px;
-            margin: auto 20px;
-            text-align: center;
+            text-indent: 15px;
         }
-        #fala{
-            font-size: 40px;
+        #escola{
+            text-indent: 45px;
         }
     </style>
     <body>
         <nav>
             <ul class="menu">
-                <li><a href="/index.html"><img src="images/logo.png"></a></li>
+                <li><a href="/index.html"><img src="/images/logo.png"></a></li>
                 <li><a href="/minha_historia.html">Minha História</a></li>
                 <li>Consultorias
                     <ul>
@@ -122,12 +124,25 @@
                 <li><a href="mailto:higuima13@gmail.com"><i class="envelope icon" id="icon"></i></a></li>
             </ul>
         </nav>
-
-        <div id="titulo">
-            <h1>Alma Montessori</h1>
-            <p>"Nós educadores temos que fazer gerações de pessoas</p>
-            <p>poderosas assim, independentes e livres."</p>
-            <p id="fala">Maria Montessori</p>
+        <div id="texto">
+            <img src="images/camila2.jpg" id="image">
+            <p>Em 1995, no segundo semestre do primeiro ano de pedagogia na Unicamp tive o privilégio de ser estagiária na Escola Americana de Campinas onde conheci Montessori e logo me apaixonei!</p>
+            <p>Fui para os EUA para fazer o Treinamento Montessori para Crianças de 3 a 6 anos no Seton Montessori Institute que é credenciado pela American Montessori Society e finalizei a formação em 1998 antes mesmo de terminar pedagogia.</p>
+            <p>Trabalhei por 5 anos como auxiliar e professora na Escola Americana em salas Montessori mas quando minha primeira filha, a Helena, nasceu em 1999, pedi demissão porque queria aproveitar todo o tempo que pudesse com ela. Montei uma sala Montessori e passei a receber filhos de amigos e de outras famílias que moravam na vizinhança para trabalhar com os materiais que havia comprado para montar a sala na minha casa.</p>
+            <p>Tive meu segundo filho, o Pedro em 2002 e continuei trabalhando em casa com a sala Montessori. No final do ano de 2004, ganhei do meu pai uma sala Montessori completa com mobiliário e todos os materiais necessários. Reformei a garagem de casa para ter mais espaço e passei a receber mais alunos. Decidi que a escola se chamaria Children’s House e criei o logo com as iniciais do nome estilizados em formato de escola e sol e meus dois filhos dando as mãos dentro da escola.</p>
+            <p>No ano de 2006 a sala Montessori saiu da minha casa para uma casa na Rua Ibsen da Costa Manso em Campinas onde ficamos um ano enquanto abria a empresa que passou a chamar Escola Montessori de Campinas.</p>
+            <p>2007 mudamos para a Avenida João Erbolato e reformamos o espaço para receber mais alunos e com isso surgiu a necessidade de contratar outras pessoas para trabalharem comigo em sala de aula. Percebi a necessidade de criar um Curso de Formação Montessori no Brasil para treinar minha equipe. Nasceu em julho de 2008 o Curso que hoje é chamado de Centro de Estudos Montessori de São Paulo que é uma pós graduação pela Singularidades e possui certificação pelo MACTE. Além desta pós, em 2019 fiz o currículo da pós Montessori semipresencial oferecida pelo Claretiano.</p>
+            <p>A Escola Montessori de Campinas expandiu e em agosto de 2019 abriu a segunda unidade no bairro do São Quirino.</p>
+            <p>Ao longo destes anos me aprofundei em Montessori fazendo também Formação Montessori para crianças de 0 a 3 anos pela North American Montessori Center e de 6 a 12 anos pela ABEM e realizei alguns trabalhos de assessoria e Formação da Equipe para as seguintes escolas:</p>
+            <p id="escola">Monteiro Lobato – São José dos Campos, SP (2009)</p>
+            <p id="escola">Colégio Santa Ursula – Ribeirão Preto, SP (2010 à 2017)</p>
+            <p id="escola">Educare – Goiânia, GO (2013 à 2019)</p>
+            <p id="escola">Semear – Sorocaba, SP (2017 à 2018)</p>
+            <p id="escola">Escola Montessori de São Carlos – São Carlos, SP(2018 à 2019)</p>
+            <p id="escola">Colégio Prisma – Juazeiro, BA (2018)</p>
+            <p id="escola">Upaon Açu – São Luis do Maranhão, MA (2019)</p>
+            <p id="escola">Jardim de Maria – Fortaleza, CE (2020 e 2021)</p>
+            <p>Hoje sou membro do Comitê Científico da Organização Montessori do Brasil e consultora pelo Alma Montessori.</p>
         </div>
     </body>
 </html>

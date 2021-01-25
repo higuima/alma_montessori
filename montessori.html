@@ -1,0 +1,146 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="/semantic/semantic.min.css">
+        <link rel="stylesheet" href="/semantic/main.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+    </head>
+    <style>
+        body{
+            background-image: url(/images/img_fundo.jpg);
+        }
+        .menu{
+            background-color: #fa8072b4;
+            border-radius: 15px;
+            display: flex;
+            flex-flow: row;
+            font-family: 'Fjalla One', sans-serif;
+            font-size: 25px;
+            height: 75px;
+            margin: 60px  155px 0px;
+        }
+        .menu li{
+            color: rgb(77, 76, 76);
+            margin: 25px 15px auto;
+            position: relative;
+            list-style:none;
+        }
+        .menu li:hover ul, .menu li.over ul{
+            display:block;
+        }
+        .menu li ul{
+            background:rgba(255, 160, 122, 0.856);
+            border-bottom-left-radius: 25px;
+            border-bottom-right-radius: 25px;
+            display: none;
+            flex-flow: row;
+            font-family: 'Fjalla One', sans-serif;
+            font-size: 20px;
+            height: max-content;
+            margin: 10px auto;
+            padding: 10px;
+            position:absolute;
+            text-align: justify;
+            width: max-content;
+        }
+        ul>li:hover{
+            color: maroon;
+        }
+        ul>li>a{
+            color: rgb(77, 76, 76);
+            margin: 25px 5px 25px;
+            position: relative;
+        }
+        ul>li>a:hover{
+            color: maroon;
+        }
+        ul>li>a>img{
+            height: 70px;
+            margin: -20px auto;
+            text-align: center;
+        }        
+        #image{
+            border-radius: 200px;
+            float:left;
+            height: 300px;
+            margin:30px !important;
+            width: 300px !important;
+        }
+        #texto{
+            background-color: rgb(204, 194, 180);
+            border-radius: 15px;
+            color: rgb(77, 76, 76);
+            flex-direction: row;
+            flex-wrap: wrap;
+            font-size: 25px;
+            margin: 45px 80px 0px;
+            padding: 30px 55px;
+            text-align: justify;
+        }
+        p{
+            text-indent: 15px;
+        }
+        #escola{
+            text-indent: 45px;
+        }
+    </style>
+    <body>
+        <nav>
+            <ul class="menu">
+                <li><a href="/index.html"><img src="/images/logo.png"></a></li>
+                <li><a href="/minha_historia.html">Minha História</a></li>
+                <li>Consultorias
+                    <ul>
+                        <li><a href="/consultorias/familia.html">Família</a></li>
+                        <li><a href="/consultorias/escolas.html">Escolas</a></li>
+                    </ul>
+                </li>
+                <li>Cursos
+                    <ul>
+                        <li>
+                            <a href="https://www.sympla.com.br/curso-de-introducao-ao-montessori-para-criancas-de-0-a-3-anos__1086982" target="_blank">
+                                Curso de introdução ao Montessori para crianças de 0 a 3 anos
+                            </a>
+                        </li>
+                    </ul>
+                </li>                    
+                <li><a href="/montessori.html">Montessori</a></li>
+                <li>Parcerias
+                    <ul>
+                        <li><a href="http://www.montessoricampinas.com.br/" target="_blank">Escola Montessori de Campinas</a></li>
+                        <li><a href="https://larmontessori.com/" target="_blank">Lar Montessori</a></li>
+                        <li><a href="https://instagram.com/reflexoesdemaeeprof?igshid=a5ova6y9yhb5" target="_blank"><i class="instagram icon"></i>Reflexões de mães e prof</a></li>
+                        <li><a href="https://www.instagram.com/educare.mamamontessori/?hl=pt-br"><i class="instagram icon"></i>Educare Mama Montessori</a></li>
+                        <li><a href="https://www.youtube.com/channel/UCno_AViYGrIdkyDvpJ2xgUQ?app=desktop"><i class="youtube icon"></i>Educare Mama Montessori</a></li>
+                    </ul>
+                </li>
+                <li><a href="https://www.instagram.com/almamontessori.br/?hl=pt-br" target="_blank"><i class="instagram icon"></i></a></li>
+                <li><a href="https://wa.me/message/HVRJHK43M3OEB1" target="_blank"><i class="whatsapp icon"></i></a></li>
+                <li><a href="https://www.facebook.com/almamontessori.br" target="_blank"><i class="facebook square icon"></i></a></li>
+                <li><a href="https://www.youtube.com/channel/UCWQe1VbHF3nOdpkVpz25Kag" target="_blank"><i class="youtube icon"></i></a></li>
+                <li><a href="mailto:higuima13@gmail.com"><i class="envelope icon" id="icon"></i></a></li>
+            </ul>
+        </nav>
+        <div id="texto">
+            <img src="/images/maria_montessori1.jpg" id="image">
+            <p>Maria Montessori nasceu em Chiaravalle na província de Ancona, Itália, em 31 de Agosto de 1870. Seu pai, Alessandro Montessori, era descendente de uma família nobre de Bologna. Era um militar que foi condecorado por sua bravura em ação. Com sua mãe, Renilde Stoppani, Maria Montessori teve um relacionamento de afeto e compreensão que não mudaram até sua morte em 19121.
+                <br/>Aos doze anos, seus pais se mudaram para Roma para possibilitar a sua filha única uma educação melhor que Ancona poderia lhe oferecer. Com quatorze anos, ela se interessou por matemática, interesse que carregou pelo resto da vida. Seus pais sugeriram que ela se tornasse uma professora, que era praticamente a única carreira aberta à mulheres naquela época. Mas Montessori se recusou a considerar esta hipótese. Ao invés disso passou a freqüentar uma escola técnica para meninos. Depois seu interesse se voltou para a área de biológicas. Decidiu que o que realmente queria era estudar medicina2.
+                <br/>Esta sim, naquela época, era uma carreira para homens. Mas Maria Montessori conseguiu ser aceita na faculdade de medicina, foi a primeira mulher na Itália a conseguir tal façanha, e além disso teve muitas bolsas de estudo.
+                <br/>Conseguiu se tornar a primeira mulher da Itália com diploma em Doutora em Medicina, em1896, quando foi escolhida para representar as italianas num congresso feminista em Berlim, no qual defendeu as mulheres trabalhadoras. Em 1900, fez parte de um outro congresso em Londres, no qual atacou às práticas de contratar crianças em minas na Sicília, dando apoio à defesa da exploração de crianças no trabalho.
+                <br/>Logo depois da sua formatura, Dra. Montessori foi designada para trabalhar como doutora assistente numa clínica psiquiátrica na Universidade de Roma. Parte do seu trabalho era de visitar os asilos dos loucos de Roma para encontrar estudos interessantes para a clínica pesquisar. Foi desta maneira que se interessou pelos deficientes que, nesta época ficavam juntos com os loucos. Com o passar do tempo tornava-se cada vez mais claro para ela que deficiência mental era mais um problema pedagógico do que um problema médico. Passou a acreditar que, com uma educação especial, suas condições melhorariam muito, idéia que dividia com Jean Itard e Edouard Séguin, entre outros3.
+                <br/>Em 1899, num congresso pedagógico em Turim, Dra. Montessori referiu-se à sua crença de que crianças deficientes não são seres extra-sociais, e deveriam ter os benefícios da educação tanto quanto, ou até mais do que as crianças normais4. 
+                <br/>Como resultado dessa fala, ela foi convidada pelo ministro da educação para dar palestras sobre o assunto. Montessori aceitou com a condição de dirigir uma escola para tais crinaças, o que realmente aconteceu entre 1899 à 1901. À esta escola foram trazidas crianças consideradas deficientes de várias escolas e as que estavam nos asilos de loucos. Baseou seu trabalho em livros de Itard, Seguin e Froebel, homens que percorreram a linha de Rousseau. 
+                <br/>Observando crianças deficientes, Seguin descobriu que são interessadas em objetos que estimulam seus sentidos e atividade física, assim como as crianças consideradas normais até seus seis anos de idade. Sendo assim, providenciou para essas crianças atividades como passar peças diferentes por buracos de tamanhos diferentes, pedaços de pano para abotoar e fazer um laço e outras tarefas concretas e úteis para a criança.
+                <br/>Montessori utilizou muitos dos materiais idealizados por Seguin e criou muitos outros para seus alunos fazerem uso. O sucesso foi tanto que algumas crianças que vieram dos asilos aprenderam a ler e escrever tão bem que foram aprovadas num teste do estado para crianças não portadoras de deficiência que são realizados para avaliar em que nível estas se encontram e até mesmo para verificar o próprio ensino da rede pública.
+                <br/>Esse sucesso fez Maria Montessori pensar o que poderia haver de errado na educação das crianças não portadoras de deficiência que eram reprovadas neste tipo de teste que até mesmo seus deficientes foram capazes de ser aprovados. Passou a acreditar que se desenvolvesse um método similar de alguma forma com o que havia aplicado nas crianças portadoras de deficiência, conseguiria trazer êxito na aprendizagem das crianças que não tiveram sucesso nos testes do Estado.
+                <br/>Para desenvolver um método que fosse adequado para crianças não portadoras de deficiência, Dra. Montessori deixou seu emprego na escola para deficientes e apesar de já ser mestre na Universidade, passou a estudar filosofia e psicologia por mais sete anos, pois acreditava que precisava de uma formação mais profunda no assunto para somente então colocar em prática o que lhe pareceria coerente.                    Nesse período Maria Montessori ocupou vários cargos importantes como por exemplo a Cadeira de Higiene num famoso colégio em Roma, foi uma examinadora permanente na Faculdade de Pedagogia e em 1904, tornou-se professora na Universidade de Roma, onde ocupou a Cadeira de Antropologia e escreveu o livro Antropologia Pedagógica.
+                <br/>Em 1907, Maria Montessori passou a lecionar crianças que habitavam uma moradia na periferia de São Lourenço, Roma. Neste lugar ela fundou a Casa dei Bambini5 uma escola para cinqüenta crianças extremamente pobres, filhos de desempregados, prostitutas, pedintes e criminosos da região. Montessori assim o definiu:            
+                <br/>"Nossa escola era uma casa para a criança, ao invés de uma escola de verdade. Preparamos um lugar para as crianças onde uma cultura diferente pudesse ser assimilada ao meio ambiente, sem nenhuma necessidade para instrução direta."</p>
+            <p>Suas idéias eram capazes de mudar o rumo da educação no mundo. Mas, de alguma forma, pareciam muito avançadas para o rumo educacional da época, e apesar de Maria Montessori ter divulgado suas ideias inclusive nas Américas, no Brasil só era lembrada pelos seus seguidores.
+                </br>Foi na década de sessenta que seu trabalho voltou a ser procurado por psicólogos, educadores e o público em geral e até hoje vem sendo mais e mais divulgado e aplicado por escolas no mundo inteiro.</p>
+        </div>
+    </body>
+</html>
